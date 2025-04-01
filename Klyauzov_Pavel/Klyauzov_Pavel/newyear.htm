@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="elka.src='img/elka/'+String(Math.floor(Math.random()*6+1))+'.gif';
+title.src='img/title/'+String(Math.floor(Math.random()*3+1))+'.gif'">
+    <script>
+        var toy = document.getElementById('toy1')
+    </script>
+
+
+    <table width=100%>
+        <tr>
+            <td></td>
+            <td><img src="../NewYear_Simple/IMG/knopki/podarok.gif" alt="" height="100" onclick="pod.style= ContentVisibilityAutoStateChangeEvent">
+                <img src="img/title/5.gif" alt="" id="title" height="150">
+                <img src="../NewYear_Simple/IMG/knopki/podarok.gif" alt="" height="100" onclick="pod.style= ContentVisibilityAutoStateChangeEvent"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="toy1" style="left: 20%; top: 150px;"><img src="img/toys/1.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy1')" ;></div>
+                <div id="toy2" style="left: 20%; top: 250px;"><img src="img/toys/2.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy2')"></div>
+                <div id="toy3" style="left: 20%; top: 350px;"><img src="img/toys/3.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy3')"></div>
+                <div id="toy4" style="left: 20%; top: 450px;"><img src="img/toys/4.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy4')"></div>
+                <div id="toy5" style="left: 20%; top: 550px;"><img src="img/toys/5.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy5')"></div>
+            </td>
+            <td>
+                <img id="elka" src='1.gif' height="600" 
+                onclick="toy.style.top=String(event.clientY)+'px';
+                        toy.style.left=String(event.clientX)+'px'">
+            </td>
+            <td>
+                <div id="toy6" style="left: 80%; top: 150px;"><img src="img/toys/6.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy6')"></div><br>
+                <div id="toy7" style="left: 80%; top: 250px;"><img src="img/toys/7.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy7')"></div><br>
+                <div id="toy8" style="left: 80%; top: 350px;"><img src="img/toys/8.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy8')"></div><br>
+                <div id="toy9" style="left: 80%; top: 450px;"><img src="img/toys/9.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy9')"></div><br>
+                <div id="toy10" style="left: 80%; top: 550px;"><img src="img/toys/10.gif" alt="" width="50"
+                        onclick="toy=document.getElementById('toy10')"></div>
+
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><marquee id="pod" behavior="alternate" direction="both" style="visibility:hidden;">
+                <img id='podarok1'src="../NewYear_Simple/IMG/podarki/1.png" alt="" height="200"> 
+                <img id='podarok2' src="../NewYear_Simple/IMG/podarki/10.png" alt="" height="200">
+                <img id='podarok3 'src="../NewYear_Simple/IMG/podarki/2.png" alt="" height="200">
+                <img id='podarok4 'src="../NewYear_Simple/IMG/podarki/4.png" alt="" height="200"></marquee></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
