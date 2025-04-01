@@ -1,0 +1,22 @@
+body { 
+text-align: center;
+background-image: url("../img/fon.png");
+color: #663300;
+ }
+ hr{
+ color: #663300;
+  }
+	a{
+	margin-left: 10;
+	margin-right: 10;
+	color: #663300;
+	font-weight: bold;
+	
+	}
+	a:hover{
+	text-decoration: none;
+	color: #336633;
+	}
+	h1{
+	margin-top:100px;
+	}
